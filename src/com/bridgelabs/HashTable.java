@@ -5,7 +5,7 @@ import java.util.Hashtable;
 public class HashTable {
     public static void main(String[] args) {
         System.out.println("Welcome to HashTable");
-        String message = "To be or not to be";
+        String message = "Paranoids are not paranoid because they are paranoid but because they keep putting themselves deliberately into paranoid avoidable situations";
         HashTable hashTable = new HashTable();
         hashTable.frequency(message);
         System.out.println(hashtable);
