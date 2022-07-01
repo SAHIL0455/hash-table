@@ -9,6 +9,8 @@ public class HashTable {
         HashTable hashTable = new HashTable();
         hashTable.frequency(message);
         System.out.println(hashtable);
+        hashtable.remove("avoidable");
+        System.out.println(hashtable);
     }
 
     public static Hashtable<String, Integer> hashtable = new Hashtable<>();
